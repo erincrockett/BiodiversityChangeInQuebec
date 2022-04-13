@@ -1,17 +1,17 @@
 
 ### CODE INFORMATION ###########################################################
 # This R Code runs the main analyses for the paper:
-# Crockett ETH, M Vellend, and EM Bennett. Temporal stability of tree 
-# biodiversity over 35 years in northern forests at different scales, levels, 
-# and dimensions of diversity. 
+# Crockett ETH, M Vellend, and EM Bennett. Tree biodiversity in northern forests
+# shows temporal stability over 35 years at different scales, levels, and 
+# dimensions of diversity.
 
 # Since some aspects of the analyses are time or memory consuming, the code is designed
 # to run separately in different chunks. There five main stages include:
-#(1) calculate diversity indices
-#(2) calculate alpha diversity change
-#(3) explain alpha diversity change
-#(4) assess changes in temporal turnover and spatial beta diversity.
-#(5) generate summary analyses and figures
+#1 calculate diversity indices
+#2 calculate alpha diversity change
+#3 explain alpha diversity change
+#4 assess changes in temporal turnover and spatial beta diversity.
+#5 generate summary analyses and figures
 
 #At the top of each stage there may be options for the user to specify which specific
 #part of the analysis (and sensitivity analyses) they would like to run.
