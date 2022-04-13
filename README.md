@@ -12,12 +12,19 @@ The R code in the file "BiodiversityChange_MainAnalyses.R" runs the analyses des
 Data files called into the code are based in the "Data folder". These files include cleaned versions of the data sources referenced below, and list values of the variables for the forest plots used in this analysis.
 
 'CommMatrixFiles' folders provide the community data matrices for the Plot, 50km, 100km, 200km spatial scales, with 100 replicates generated through the resampling procedure.
+
 'Explanatory_variables' provides data values for climate variables, disturbance, and land designations for each of the spatial scales.
+
 'ForestChange_byBioDomain' indicates the percent of harvesting and fire disturbances across the different biodomains.
+
 'Placette_UTM19_Included' provides coordinates for the forest plots.
+
 'QC_50km', 'QC_100km', and 'QC_200km' files provide the grid cells generated.
+
 'QCphyloCodes' provides phylogenetic information for the tree species in this study.
+
 'infoFirst_tiges' details information about each forest plot during the first sampling period (1970s).
+
 'traits17' gives information on the 17 functional traits for the tree species found in this study.
 
 
