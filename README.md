@@ -11,6 +11,7 @@ The R code in the file "BiodiversityChange_MainAnalyses.R" runs the analyses des
 
 Data files called into the code are based in the "Data folder". These files include cleaned versions of the data sources referenced below, and list values of the variables for the forest plots used in this analysis.
 
+
 'CommMatrixFiles' folders provide the community data matrices for the Plot, 50km, 100km, 200km spatial scales, with 100 replicates generated through the resampling procedure.
 
 'Explanatory_variables' provides data values for climate variables, disturbance, and land designations for each of the spatial scales.
