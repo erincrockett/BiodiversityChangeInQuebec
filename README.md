@@ -1,5 +1,5 @@
 # BiodiversityChangeInQuebec
-Code a data for the paper:
+Code and data for the paper:
 
 Crockett ETH, M Vellend, and EM Bennett. Tree biodiversity in northern forests shows temporal stability over 35 years at different scales, levels, and dimensions. 
 
