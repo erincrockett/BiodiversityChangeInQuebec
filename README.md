@@ -1,7 +1,7 @@
 # BiodiversityChangeInQuebec
 Code a data for the paper:
 
-Crockett ETH, M Vellend, and EM Bennett. Temporal stability of tree biodiversity over 35 years in northern forests at different scales, levels, and dimensions of diversity. 
+Crockett ETH, M Vellend, and EM Bennett. Tree biodiversity in northern forests shows temporal stability over 35 years at different scales, levels, and dimensions. 
 
 ## Code
 
