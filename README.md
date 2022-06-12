@@ -35,6 +35,8 @@ Données Quebec. (2017). Placettes-échantillons temporaires du quatrième inven
 
 Données Quebec. (2019). Couche des territoires récréatifs du Québec à l'échelle de 1/100 000. Retrieved from: https://www.donneesquebec.ca/recherche/dataset/couche-des-territoires-recreatifs-du-quebec-a-l-echelle-de-1-100-000
 
+MacDonald, H., McKenney, D., Papadopol, P., Lawrence, K., Pedlar, J., & Hutchinson, M. (2020). North America Historical Monthly Spatial Climate Models, 1901-2016. World Data Center for Climate (WDCC) at DKRZ. https://doi.org/10.26050/WDCC/CCH_3876085
+
 McKenney, D. W., Hutchinson, M. F., Papadopol, P., Lawrence, K., Pedlar, J., Campbell, K., Milewska, E., Hopkinson, R. F., Price, D., & Owen, T. (2011). Customized spatial climate models for North America. Bulletin of the American Meteorological Society, 92(12), 1611–1622.
 
 McKenney, D. W., Pedlar, J. H., Papadopol, P., & Hutchinson, M. F. (2006). The development of 1901–2000 historical monthly climate models for Canada and the United States. Agricultural and Forest Meteorology, 138(1–4), 69–81. https://doi.org/10.1016/j.agrformet.2006.03.012
