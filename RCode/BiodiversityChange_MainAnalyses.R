@@ -1,9 +1,9 @@
 
 ### CODE INFORMATION ###########################################################
 # This R Code runs the main analyses for the paper:
-# Crockett ETH, M Vellend, and EM Bennett. Tree biodiversity in northern forests
+# Crockett ETH, M Vellend, and EM Bennett. (2022). Tree biodiversity in northern forests
 # shows temporal stability over 35 years at different scales, levels, and 
-# dimensions of diversity.
+# dimensions of diversity. Journal of Ecology.
 
 # Since some aspects of the analyses are time or memory consuming, the code is designed
 # to run separately in different chunks. There five main stages include:
@@ -79,8 +79,8 @@ dir.create( paste( BaseDirectory, "DistMats", sep="/") )
 
 
 ##Load the functions
-setwd( BaseDirectory )
-source("BiodiversityChange_Functions.R")
+setwd( paste( BaseDirectory, "RCode", sep="/") )
+source("BiodiversityChange_Functions.R") 
 
 
 for(rr in 1:length(resLevels)){ #all levels of spatial grid cells
@@ -502,7 +502,7 @@ percentRem <- c(25,50,75,90,95,100)    #what percent of trees are removed from d
 setwd( paste( BaseDirectory, "DataFiles", sep="/") )
 load("infoFirst_tiges.RData")
 #Load Functions
-setwd( BaseDirectory )
+setwd( paste( BaseDirectory, "RCode", sep="/" )
 source("BiodiversityChange_Functions.R")
 
 #Function to summarize the data at each level, add a column, and convert from List to datafrmae
@@ -666,7 +666,7 @@ BDmetric <- c("q0","q1","q2")
 setwd( paste( BaseDirectory, "DataFiles", sep="/") )
 load("Explantory_Variables.RData")  #object: mod.data
 #Load Functions
-setwd( BaseDirectory )
+setwd( paste( BaseDirectory, "RCode", sep="/") )
 source("BiodiversityChange_Functions.R")
 
 #To summarize the data at each level, add a column, and convert from List to datafrmae
@@ -950,7 +950,7 @@ nPlot <- c("pMid","pLo","pHi")  #number of plots within each grid cell to use in
 BDaspect <- c("TD","PD","FD")
 
 #Read in the functions
-setwd( BaseDirectory )
+setwd( paste( BaseDirectory, "RCode", sep="/") )
 source("BiodiversityChange_Functions.R") 
 
 #Create folders within "Results" called "PERMANOVADISP" with subfolders for each resLevel.foldr
@@ -1103,7 +1103,7 @@ aDiv.AbsChg <- read.csv("aDiv_Results_AbsChg.csv")
 aDiv.LogChg <- read.csv("aDiv_Results_LogChg.csv")
 
 #Call in Function from Stats Code  (to calculate change)
-setwd( BaseDirectory )
+setwd( paste( BaseDirectory, "RCode", sep="/") )
 source("BiodiversityChange_Functions.R")
 
 
